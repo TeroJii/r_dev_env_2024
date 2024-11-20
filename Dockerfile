@@ -1,3 +1,5 @@
+# Get a base image with R version 4.3.2.
+# Base image built on April 24, 2024
 FROM rocker/r-ver@sha256:8b25859fbf21a7075bbc2285ebfe06bb8a14dd83e4576df11ff46f14a8620636
 
 RUN apt-get update && apt-get install -y \
